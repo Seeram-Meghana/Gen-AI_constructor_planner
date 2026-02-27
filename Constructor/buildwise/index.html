@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BuildWise - Smart Building Planner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>🏗️ BuildWise - Building Planner</h1>
+
+  <div class="container">
+
+    <label>Land Area (in acres):</label>
+    <input type="number" id="acres" placeholder="Enter acres">
+
+    <label>Number of Floors:</label>
+    <input type="number" id="floors" placeholder="Enter floors">
+
+    <label>Total Rooms Required:</label>
+    <input type="number" id="rooms" placeholder="Enter rooms">
+
+    <button onclick="generatePlan()">Generate Building Plan</button>
+
+    <div id="result"></div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
